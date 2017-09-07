@@ -1,11 +1,11 @@
 body {
       font-family: Helvetica;
+      text-align: center;
 }
 
 .hero {
 	 background-image: url("../images/building.png");
      background-size: 100% 100%;
-     text-align: center;
 }
 
 h1 {
@@ -16,10 +16,42 @@ h1 {
 
 #home, #process, #work, #team, #contact {
 	font-size: 18px;
+	font-weight: bold;
 	list-style: none;
 	color: black;
 }
 
 a:link {
 	color: white;
+}
+
+.black a:link {
+	color: black;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 14px
+}
+
+.mid {
+	background-image: url("../images/building.png");
+	background-size: cover;
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+}
+
+.black {
+	color: black;
 }
