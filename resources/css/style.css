@@ -56,10 +56,20 @@ p {
 	color: black;
 }
 
+/* footer and bottom navigation */
+
 footer {
-	font-size: 11px;
 	color: white;
-	background-image: url("../images/building.png");
+	background-color: dimgray;
 	background-size: cover;
 	color: white;
+	font-size: 11px;
 }
+
+#home1, #process1, #work1, #team1, #contact1, #copy {
+	list-style: none;
+	display: inline;
+	text-align: left;
+} 
+
+
