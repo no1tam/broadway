@@ -47,11 +47,19 @@ p {
 .mid {
 	background-image: url("../images/building.png");
 	background-size: cover;
-	font-size: 23px;
-	font-weight: bold;
 	color: white;
 }
 
+/* contact info */
+
 .black {
 	color: black;
+}
+
+footer {
+	font-size: 11px;
+	color: white;
+	background-image: url("../images/building.png");
+	background-size: cover;
+	color: white;
 }
